@@ -10,3 +10,4 @@ services:
       - ./startrek:/app/startrek
       - ./apache/startrek.conf:/etc/apache2/sites-enabled/startrek.conf
       - ./apache/starwars.conf:/etc/apache2/sites-enabled/starwars.conf
+      - ./palpatine:/app/palpatine
